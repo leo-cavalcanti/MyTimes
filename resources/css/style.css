@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  display: flex;
+  padding: 10px 50px 10px 30px;
+  align-items: center;
+}
+
+nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  margin: 12px;
+  border: 1px solid red;
+  display: inline-block;
+}
+
+.logo {
+  display: inline-flex;
+  min-width: 550px;
+  color: MediumAquamarine;
+  border: 1px solid red;
+  align-items: center;
+}
