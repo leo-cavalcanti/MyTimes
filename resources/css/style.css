@@ -9,22 +9,35 @@ header {
   font-weight: bold;
   border-bottom: 1px solid black;
   display: flex;
-  padding: 10px 50px 10px 30px;
+  padding: 10px 30px;
   align-items: center;
 }
 
 nav {
   display: inline-flex;
   justify-content: flex-end;
-  margin: 12px;
+  /*margin: 12px;*/
   border: 1px solid red;
   display: inline-block;
 }
 
+nav, a {
+  margin: 20px 12px;
+  color: black;
+  border: 1px solid red;
+  justify-content: space-around;
+
+}
+
 .logo {
   display: inline-flex;
-  min-width: 550px;
+  /*min-width: 330px;*/
+  flex-grow: 1;
   color: MediumAquamarine;
   border: 1px solid red;
   align-items: center;
+}
+
+.logo span {
+  margin: 12px;
 }
