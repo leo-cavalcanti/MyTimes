@@ -1,43 +1,67 @@
 body {
   margin: 0;
-  padding: 0;
+  /*padding: 0;*/
 }
+
+/***********Menu**************/
 
 header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border-bottom: 1px solid black;
   display: flex;
-  padding: 10px 30px;
   align-items: center;
-}
-
-nav {
-  display: inline-flex;
-  justify-content: flex-end;
-  /*margin: 12px;*/
-  border: 1px solid red;
-  display: inline-block;
-}
-
-nav, a {
-  margin: 20px 12px;
-  color: black;
-  border: 1px solid red;
-  justify-content: space-around;
-
+  position: fixed;
+  width: 100%;
+  /*z-index: 1;*/
 }
 
 .logo {
-  display: inline-flex;
   /*min-width: 330px;*/
+  display: inline-flex;
   flex-grow: 1;
   color: MediumAquamarine;
   border: 1px solid red;
+  padding-left: 30px;
   align-items: center;
 }
 
 .logo span {
-  margin: 12px;
+  margin-left: 12px;
 }
+
+nav {
+  /*margin: 0 12px;*/
+  border: 1px solid red;
+  padding-right: 40px;
+  /*padding: 10px;*/
+}
+
+.nav span {
+  display: inline-flex;
+  justify-content: center;
+  border: 1px solid red;
+  /*margin: 0 12px;*/
+  padding: 0 10px;
+  color: black;
+  border: 1px solid red;
+  /*justify-content: space-around;*/
+}
+
+.nav a {
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+/***********Main**************/
+
+.main {
+  top: 80px;
+  position: relative;
+  border-top: 1px solid black;
+}
+
+
+
+/***********Footer**************/
