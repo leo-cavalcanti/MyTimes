@@ -13,7 +13,10 @@ header {
   align-items: center;
   position: fixed;
   width: 100%;
-  /*z-index: 1;*/
+  padding: 10px 0;
+  background-color: white;
+  z-index: 1;
+  border-bottom: 1px solid black;
 }
 
 .logo {
@@ -32,7 +35,7 @@ header {
 
 nav {
   /*margin: 0 12px;*/
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   padding-right: 40px;
   /*padding: 10px;*/
 }
@@ -40,17 +43,17 @@ nav {
 .nav span {
   display: inline-flex;
   justify-content: center;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
+  align-items: center;
   /*margin: 0 12px;*/
   padding: 0 10px;
   color: black;
-  border: 1px solid red;
   /*justify-content: space-around;*/
 }
 
 .nav a {
   color: black;
-  margin-bottom: 20px;
+  margin: 5px 0;
 }
 
 
@@ -59,7 +62,54 @@ nav {
 .main {
   top: 80px;
   position: relative;
-  border-top: 1px solid black;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 38px;
+  margin: 0 26px 80px 15px;
+  z-index: 0;
+  /*width: 1275px;*/
+}
+
+.column.large {
+  width: 605px;
+  border: 1px solid black;
+  display: flex;
+  flex-flow: wrap column;
+  margin-right: 15px;
+}
+
+.column.large div {
+  border: 1px solid black;
+}
+
+/*.special {
+  border: 1px solid black;
+  padding-top: 0;
+}*/
+
+.column.medium {
+  width: 288px;
+  border: 1px solid black;
+  display: flex;
+  flex-flow: wrap column;
+  margin: 0 16px;
+}
+
+.column.medium div {
+  border: 1px solid black
+}
+
+.column.small {
+  width: 240px;
+  border: 1px solid black;
+  display: flex;
+  flex-flow: wrap column;
+  margin: 0 30px 0 15px;
+}
+
+.news-bites {
+  border: 1px solid black;
 }
 
 
